@@ -1,0 +1,80 @@
+body{
+    width:100vw;
+    /* min-height:100vh; */
+    background-image: url(pub.png);
+    background: linear-gradient( rgb(0, 0, 0)  ,rgb(43, 43, 216));
+    background-size: 200% 100%;
+    background-repeat:no-repeat;
+}
+/* nav{
+    background-color: rgb(77, 82, 116);
+} */
+/* header{
+   border:  2px solid rgb(141, 198, 229);
+} */
+ .container{
+    padding-top: 15vh;
+    position: relative;
+    width: 100%;
+    /* height: 100vh; */
+    /* background-color:; */
+    display: flex;
+    flex-direction: column;
+    color: white;
+    /* justify-content: space-between; */
+    gap:3rem;
+    align-items:center;
+    overflow: scroll;
+    /* gap:space */
+    
+ }
+ .head {
+    /* text-decoration: underline; */
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 60vw;
+
+ }
+ h2{
+    text-decoration: underline; 
+    color: rgb(192, 223, 236);
+    font-size: 30px;
+ }
+ h8{
+   font-size: 18px;
+ }
+
+ .para{
+    text-decoration:none
+ }
+ a{
+    color: rgb(241, 121, 157);
+ }
+ .citation{
+    height: 400px;
+    width:1000px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 20px;
+ }
+
+ .citjpg{
+    
+    height: 346px;
+    width:700px;
+    border: 2px solid red;
+    background: url(citation.png);
+    background-size: contain;
+ }
+@media(width<800px){
+    .citjpg{
+        padding: 0 20px;
+        height: 160px;
+        width:300px;
+    }
+}

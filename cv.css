@@ -1,0 +1,14 @@
+iframe{
+    padding-left: 10vw;
+    padding-top: 15vh;
+    width:80vw;
+ 
+    /* padding-bottom: 5vh; */
+ }
+ .cotent{
+     margin-left: 0;
+     position:absolute;
+     background: linear-gradient(black 70%,rgb(45, 45, 146));
+     min-height:100vh;
+     min-width: 100vw;
+  }
