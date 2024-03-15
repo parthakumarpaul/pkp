@@ -60,7 +60,7 @@ body{
  .citjpg{
     
     height: 346px;
-    width:700px;
+    width:600px;
     border: 2px solid red;
     background: url(citation.png);
     background-size: contain;
